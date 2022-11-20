@@ -34,14 +34,13 @@ public class ArrowController : MonoBehaviour
         // 방향벡터의 방향으로 힘을 실어서 보냄
         GetComponent<Rigidbody2D>().AddForce(dir.normalized * arrowSpeed * 100f);
 
-        Destroy(this.gameObject, 10.0f);
+        Destroy(this.gameObject, 3.0f);
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "BodyShot" || other.tag == "HeadShot")
         {
             Debug.Log("enemy crash!");
-
 
             rigid.velocity = Vector2.zero;
             arrowCrash = true;

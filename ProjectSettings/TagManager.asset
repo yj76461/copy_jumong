@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - HeadShot
   - BodyShot
+  - Units
   layers:
   - Default
   - TransparentFX
@@ -18,9 +19,9 @@ TagManager:
   - Arrow
   - Enemy
   - playerCollider
-  - 
-  - 
-  - 
+  - Units
+  - enemyCollider
+  - deadLayer
   - 
   - 
   - 
