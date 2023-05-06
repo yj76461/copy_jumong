@@ -27,8 +27,10 @@ public class GameManager : MonoBehaviour
     public Text energyText;
     public Text goldText;
     public Text introText;
-    int energy = 0;
-    int gold = 0;
+    
+    // my cost
+    public int energy = 0;
+    public int gold = 0;
     bool gameStart = false;
     bool isStartScreen = true;
     int roundId;

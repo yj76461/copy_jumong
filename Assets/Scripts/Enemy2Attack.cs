@@ -57,7 +57,7 @@ public class Enemy2Attack : MonoBehaviour
                 if(scannedObject == null)
                 {
                     anim.SetBool("doAttack", false);
-                    speed = 1.0f;
+                    speed = 1.5f; // 접근 빨라지게 스피드 바꿈
                 }
                 else
                 {

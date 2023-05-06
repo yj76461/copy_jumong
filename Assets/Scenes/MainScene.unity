@@ -8100,6 +8100,8 @@ MonoBehaviour:
   energyText: {fileID: 1511468714}
   goldText: {fileID: 162718172}
   introText: {fileID: 191118472}
+  energy: 1000
+  gold: 1000
   audioMixer: {fileID: 24100000, guid: 8bab23950f4d9f144b5e64fd403fae42, type: 2}
   audioSlider: {fileID: 1547417074}
   audioStage: {fileID: 8300000, guid: b442123a67071894ca2beeb4a6185aae, type: 3}

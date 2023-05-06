@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// 2023/05/07 유닛 화살 쏘고나서 멈추는 기능 구현 실패
+
 public class Unit2Attack : MonoBehaviour
 {
     public LayerMask enemyLayer;
@@ -151,5 +153,6 @@ public class Unit2Attack : MonoBehaviour
             Debug.Log("아무도 감지되지않았습니다.");
         
     }
+
 
 }
