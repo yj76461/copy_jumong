@@ -100,6 +100,7 @@ public class Unit2Attack : MonoBehaviour
 
             Destroy(gameObject, 1.0f);
         }
+        
 
     }
 
