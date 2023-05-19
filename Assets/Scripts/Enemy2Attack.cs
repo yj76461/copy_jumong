@@ -125,7 +125,7 @@ public class Enemy2Attack : MonoBehaviour
                 player.GetComponent<PlayerController>().playerHP -= 20;
             else
             {
-                player.GetComponent<UnitController>().unitHP -= 30;
+                player.GetComponent<Unit2Controller2>().UnderAttack(30);
                 Debug.Log("normal attack to unit! " + " unit hp is " + player.GetComponent<UnitController>().unitHP);
             }
                 
